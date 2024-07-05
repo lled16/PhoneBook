@@ -16,7 +16,7 @@ namespace PhoneBook.Domain.Mappings
             PhoneBookDTO phoneBookDTO = new PhoneBookDTO()
             {
                 Name = contactEntity.Name,
-                Phone = phoneEntity.Phones
+                Phone = contactEntity.Phones,
             };
             return phoneBookDTO;
         }

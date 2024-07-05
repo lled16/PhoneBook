@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.domain\\dtos\\phonebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|solutionrelative:phonebook.domain\\dtos\\phonebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.domain\\mappings\\entitytodtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|solutionrelative:phonebook.domain\\mappings\\entitytodtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.application\\services\\phonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|solutionrelative:phonebook.application\\services\\phonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C34470-6F14-48C6-9CD3-A6E50BF4348F}|PhoneBook.InfraData\\PhoneBook.InfraData.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.infradata\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C34470-6F14-48C6-9CD3-A6E50BF4348F}|PhoneBook.InfraData\\PhoneBook.InfraData.csproj|solutionrelative:phonebook.infradata\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.domain\\interfaces\\ientitytodtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|solutionrelative:phonebook.domain\\interfaces\\ientitytodtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.domain\\entities\\phoneentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|solutionrelative:phonebook.domain\\entities\\phoneentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C34470-6F14-48C6-9CD3-A6E50BF4348F}|PhoneBook.InfraData\\PhoneBook.InfraData.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.infradata\\repositories\\phonesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C34470-6F14-48C6-9CD3-A6E50BF4348F}|PhoneBook.InfraData\\PhoneBook.InfraData.csproj|solutionrelative:phonebook.infradata\\repositories\\phonesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.domain\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|solutionrelative:phonebook.domain\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebook.domain\\interfaces\\iphonesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|solutionrelative:phonebook.domain\\interfaces\\iphonesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25AFD01A-BB09-4EBC-B824-3B5B2F0CABEE}|PhoneBookAPI\\PhoneBook.API.csproj|c:\\users\\joaosimao\\documents\\joao\\phonebook\\phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25AFD01A-BB09-4EBC-B824-3B5B2F0CABEE}|PhoneBookAPI\\PhoneBook.API.csproj|solutionrelative:phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +50,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhoneBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\DTOS\\PhoneBookDTO.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Domain\\DTOS\\PhoneBookDTO.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\DTOS\\PhoneBookDTO.cs",
+              "RelativeToolTip": "PhoneBook.Domain\\DTOS\\PhoneBookDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T20:34:13.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhoneEntity.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Entities\\PhoneEntity.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Domain\\Entities\\PhoneEntity.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Entities\\PhoneEntity.cs",
+              "RelativeToolTip": "PhoneBook.Domain\\Entities\\PhoneEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T20:28:09.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
+              "RelativeToolTip": "PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T20:00:10.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\Repositories\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "PhoneBook.InfraData\\Repositories\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\Repositories\\ContactRepository.cs",
+              "RelativeToolTip": "PhoneBook.InfraData\\Repositories\\ContactRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAwwBoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:58:40.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPhonesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IPhonesRepository.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Domain\\Interfaces\\IPhonesRepository.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IPhonesRepository.cs",
+              "RelativeToolTip": "PhoneBook.Domain\\Interfaces\\IPhonesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:55:01.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhonesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\Repositories\\PhonesRepository.cs",
+              "RelativeDocumentMoniker": "PhoneBook.InfraData\\Repositories\\PhonesRepository.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\Repositories\\PhonesRepository.cs",
+              "RelativeToolTip": "PhoneBook.InfraData\\Repositories\\PhonesRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIAwwCAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:51:24.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBookAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PhoneBookAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBookAPI\\Program.cs",
+              "RelativeToolTip": "PhoneBookAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:48:48.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEntityToDTOMapper.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IEntityToDTOMapper.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Domain\\Interfaces\\IEntityToDTOMapper.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IEntityToDTOMapper.cs",
+              "RelativeToolTip": "PhoneBook.Domain\\Interfaces\\IEntityToDTOMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:48:27.87Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -30,6 +175,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityToDTOMapper.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Mappings\\EntityToDTOMapper.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Domain\\Mappings\\EntityToDTOMapper.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\Mappings\\EntityToDTOMapper.cs",
+              "RelativeToolTip": "PhoneBook.Domain\\Mappings\\EntityToDTOMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:43:29.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhoneBookService.cs",
+              "DocumentMoniker": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "ToolTip": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "RelativeToolTip": "PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:39:18.14Z",
+              "EditorCaption": ""
             }
           ]
         }

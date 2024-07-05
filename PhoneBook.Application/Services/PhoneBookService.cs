@@ -24,6 +24,12 @@ namespace PhoneBook.Application.Services
 
             var contacts = await _contactRepository.GetContactsAsync();
 
+          
+            await _entityToDTOMapper.EntityToDTO(phonesByContact, contact);
+            
+
+
+
             return null;
 
         }
