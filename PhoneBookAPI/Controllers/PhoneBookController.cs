@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PhoneBook.Application.DTOS;
+using PhoneBook.Application.Interfaces;
 
 namespace PhoneBook.API.Controllers
 {
@@ -8,6 +9,13 @@ namespace PhoneBook.API.Controllers
     [ApiController]
     public class PhoneBookController : ControllerBase
     {
+        private readonly IPhoneBookService _phoneBookService;
+
+        public PhoneBookController(IPhoneBookService phoneBookService)
+        {
+            _phoneBookService = phoneBookService;
+        }
+
         [HttpGet]
         public IActionResult GetRegisters()
         {

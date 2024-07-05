@@ -15,9 +15,4 @@
     <ProjectReference Include="..\PhoneBook.Application\PhoneBook.Application.csproj" />
     <ProjectReference Include="..\PhoneBook.InfraData\PhoneBook.InfraData.csproj" />
   </ItemGroup>
-
-	<PropertyGroup>
-		<MSBuildProjectExtensionsPath>$(MSBuildProjectDirectory)\_intermediate_\</MSBuildProjectExtensionsPath>
-	</PropertyGroup>
-
 </Project>
