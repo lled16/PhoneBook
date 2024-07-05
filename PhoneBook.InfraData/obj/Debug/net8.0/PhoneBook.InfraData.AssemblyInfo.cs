@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneBook.InfraData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+119b79d56a7a08b018766da2080cdd4ddc6718c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac24763c63b3b3ef874ad1b4fbb004b45b4d5e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneBook.InfraData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneBook.InfraData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

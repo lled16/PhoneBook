@@ -1,0 +1,13 @@
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\bin\Debug\net8.0\PhoneBook.Infra.IOC.deps.json
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\bin\Debug\net8.0\PhoneBook.Infra.IOC.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\bin\Debug\net8.0\PhoneBook.Infra.IOC.pdb
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.csproj.AssemblyReference.cache
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.AssemblyInfoInputs.cache
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.AssemblyInfo.cs
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.csproj.CoreCompileInputs.cache
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.sourcelink.json
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\refint\PhoneBook.Infra.IOC.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.pdb
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\ref\PhoneBook.Infra.IOC.dll

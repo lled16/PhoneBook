@@ -1,0 +1,13 @@
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\bin\Debug\net8.0\PhoneBook.Domain.deps.json
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\bin\Debug\net8.0\PhoneBook.Domain.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\bin\Debug\net8.0\PhoneBook.Domain.pdb
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.AssemblyInfoInputs.cache
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.AssemblyInfo.cs
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.csproj.CoreCompileInputs.cache
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.sourcelink.json
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\refint\PhoneBook.Domain.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.pdb
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\ref\PhoneBook.Domain.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.csproj.AssemblyReference.cache
