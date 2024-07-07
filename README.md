@@ -1,7 +1,7 @@
 
 # PhoneBook API
 
-Projeto desenvolvido para teste. O mesmo se trata de uma api para uma agenda telefônica, permitindo que o usuário possa criar um contado, definindo até 3 números de telefone, seu nome e sua idade. 
+Projeto desenvolvido para teste. Trata-se de uma api para uma agenda telefônica, permitindo que o usuário possa criar um contato, definindo até 3 números de telefone, seu nome e sua idade. 
 
 ## Tecnologias utilizadas
 
@@ -23,9 +23,9 @@ SQL Server
 
 ## Sobre
 
-Saliento que neste projeto, por ser simples, não seria necessário a utilização da arquitetura limpa, mas introduzi para fixar aluguns fundamentos, o mesmo poderia ser feito contendo apenas a camada de API.
+Saliento que neste projeto, por ser simples, não seria necessário a utilização da arquitetura limpa, mas introduzi para demonstrar como poderia ser feito em caso de um projeto mais complexo.
 
-Camadade de IOC não implementada pela simplicidade do projeto, mas as dependências também poderiam ser registradas nesta. 
+Camada de de IOC não implementada pela simplicidade do projeto, mas as dependências também poderiam ser registradas nesta. 
 
 ## Como executar 
 
@@ -35,10 +35,10 @@ Camadade de IOC não implementada pela simplicidade do projeto, mas as dependên
 
 *  Através do terminal, navegue até o projeto InfraData : cd .\PhoneBook.InfraData\ 
 
-* Execute o comando : update-database para que as migrations sejam carregadas e o banco de dados seja construído
+* Execute o comando: update-database para que as migrations sejam carregadas e o banco de dados seja construído
 
 Após isso, já deverá conseguir executar e visualizar o Swagger ! 
 
 * Agora, clone o repositório : https://github.com/lled16/PhoneBookFront.git
 
-* Abra o projeto clonado através do VSCODE, e pelo terminal, execute : npm start.
+* Abra o projeto clonado através do VSCODE, e pelo terminal, execute: npm start.
