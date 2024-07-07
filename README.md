@@ -18,7 +18,7 @@ dotnet 8
 Entity Framework
 
 * Database
-* 
+ 
 SQL Server
 
 ## Sobre
