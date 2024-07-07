@@ -6,7 +6,7 @@ Projeto desenvolvido para teste. O mesmo se trata de uma api para uma agenda tel
 ## Tecnologias utilizadas
 
 * Frontend :
-* 
+  
 ReactJS 
 
 * Backend :
