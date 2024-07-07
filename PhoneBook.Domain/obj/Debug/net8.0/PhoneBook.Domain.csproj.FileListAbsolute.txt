@@ -11,3 +11,16 @@ C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\re
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.pdb
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\ref\PhoneBook.Domain.dll
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.csproj.AssemblyReference.cache
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.csproj.AssemblyReference.cache
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.AssemblyInfoInputs.cache
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.AssemblyInfo.cs
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.sourcelink.json
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\refint\PhoneBook.Domain.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\PhoneBook.Domain.pdb
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\bin\Debug\net8.0\PhoneBook.Domain.deps.json
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\bin\Debug\net8.0\PhoneBook.Domain.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\bin\Debug\net8.0\PhoneBook.Domain.pdb
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Domain\obj\Debug\net8.0\ref\PhoneBook.Domain.dll

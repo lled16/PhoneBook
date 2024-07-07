@@ -10,8 +10,9 @@ namespace PhoneBook.Domain.Interfaces
     public interface IContactRepository
     {
         Task<ContactEntity> CreateAsync(ContactEntity contact);
-        Task<IEnumerable<ContactEntity>> GetContactsAsync();
-        Task<ContactEntity> RemoveAsync(ContactEntity contact);
+        Task<List<ContactEntity>> GetContactsAsync();
+        Task<List<ContactEntity>> GetContactsByName(string name);
+        void RemoveAsync(int contact);
         Task<ContactEntity> UpdateAsync(ContactEntity contact);
     }
 }

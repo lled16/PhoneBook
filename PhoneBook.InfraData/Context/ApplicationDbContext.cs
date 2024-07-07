@@ -16,45 +16,14 @@ namespace PhoneBook.InfraData.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PhoneEntity>()
-                .HasKey(p => p.Id);
+            .HasOne(t => t.Contact)          
+            .WithMany(c => c.Phones)       
+            .HasForeignKey(t => t.ContactId)
+            .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<PhoneEntity>()
-                .Property(p => p.Id)
-                .ValueGeneratedOnAdd(); // Configuração para auto incremento
+            modelBuilder.Entity<PhoneEntity>().HasKey(t => t.PhoneId);
 
-            modelBuilder.Entity<PhoneEntity>()
-                .Property(p => p.Phones)
-                .HasMaxLength(100)
-                .IsRequired();
-
-            modelBuilder.Entity<PhoneEntity>()
-                .HasOne(p => p.Contact)
-                .WithMany(c => c.Phones)
-                .HasForeignKey(p => p.Id)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<ContactEntity>()
-                .HasKey(c => c.Id);
-
-            modelBuilder.Entity<ContactEntity>()
-                .Property(c => c.Id)
-                .ValueGeneratedOnAdd(); // Configuração para auto incremento
-
-            modelBuilder.Entity<ContactEntity>()
-                .Property(c => c.Name)
-                .IsRequired()
-                .HasMaxLength(50);
-
-            modelBuilder.Entity<ContactEntity>()
-                .Property(c => c.Age)
-                .IsRequired()
-                .HasMaxLength(3);
-
-            modelBuilder.Entity<ContactEntity>()
-                .HasMany(c => c.Phones)
-                .WithOne(p => p.Contact)
-                .HasForeignKey(p => p.Id)
-                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<ContactEntity>().HasKey(t => t.ContactId);
 
             base.OnModelCreating(modelBuilder);
         }

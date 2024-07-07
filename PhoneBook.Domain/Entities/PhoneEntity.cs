@@ -1,14 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace PhoneBook.Domain.Entities
 {
     public class PhoneEntity
     {
-        public int Id { get; set; }
-        [Required]
-        public string Phones { get; set; }
-        [Required]
-        public virtual ContactEntity Contact { get; set; }
+        [JsonIgnore]
+        public int? PhoneId { get; set; }
+        public string PhoneNumber { get; set; }
+
+        [JsonIgnore]
+        public int? ContactId { get; set; }
+        [JsonIgnore]
+        public ContactEntity Contact { get; set; }
 
     }
 }

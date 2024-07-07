@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PhoneBook.Application.DTOS;
 using PhoneBook.Application.Interfaces;
+using PhoneBook.Domain.Entities;
 
 namespace PhoneBook.API.Controllers
 {
@@ -16,15 +17,26 @@ namespace PhoneBook.API.Controllers
             _phoneBookService = phoneBookService;
         }
 
-        [HttpGet]
-        public IActionResult GetRegisters()
+        [HttpGet("contacts")]
+        public async Task<IActionResult> GetRegisters()
         {
-            return Ok();
+            var contacts = await _phoneBookService.GetPhonesBook();
+
+            return Ok(contacts);
         }
-        [HttpPost]
-        public IActionResult PostRegister()
+
+        [HttpGet("contacts/{name}")]
+        public async Task<IActionResult> GetContactByName(string name)
         {
-            return Ok();
+            var contact = await _phoneBookService.GetContactsByName(name);
+            return Ok(contact);
+        }
+
+        [HttpPost]
+        public IActionResult PostRegister([FromBody] ContactDTO newContact)
+        {
+            var contact = _phoneBookService.PostPhonesBook(newContact);
+            return Ok(contact);
         }
         [HttpPut]
         public IActionResult UpdateRegister()
@@ -32,8 +44,9 @@ namespace PhoneBook.API.Controllers
             return Ok();
         }
         [HttpDelete]
-        public IActionResult DeleteRegister()
+        public IActionResult DeleteRegister(int idContact)
         {
+            _phoneBookService.DeleteContact(idContact);
             return Ok();
         }
     }

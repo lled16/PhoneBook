@@ -10,6 +10,5 @@ namespace PhoneBook.Domain.Interfaces
 {
     public interface IEntityToDTOMapper
     {
-        Task<PhoneBookDTO> EntityToDTO(PhoneEntity phoneEntity, ContactEntity contactEntity);
     }
 }

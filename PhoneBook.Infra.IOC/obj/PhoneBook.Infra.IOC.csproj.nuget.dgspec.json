@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj": {}
+    "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj": {
+    "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj",
         "projectName": "PhoneBook.Infra.IOC",
-        "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj",
-        "packagesPath": "C:\\Users\\JoaoSimao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Infra.IOC\\obj\\",
+        "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Infra.IOC\\PhoneBook.Infra.IOC.csproj",
+        "packagesPath": "C:\\Users\\pc gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Infra.IOC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JoaoSimao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

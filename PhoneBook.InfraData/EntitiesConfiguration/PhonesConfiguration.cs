@@ -8,8 +8,10 @@ namespace PhoneBook.Infra.Data.Identity
     {
         public void Configure(EntityTypeBuilder<PhoneEntity> builder)
         {
-            builder.HasKey(t => t.Id);
-            builder.Property(p => p.Phones).HasMaxLength(100).IsRequired();
+            //builder.HasKey(t => t.ContactId);
+            //builder.Property(p => p.PhoneNumber).HasMaxLength(100).IsRequired();
+
+            //builder.HasMany(p => p.Phones).WithOne().HasForeignKey(r => r.ContactId);
 
         }
     }

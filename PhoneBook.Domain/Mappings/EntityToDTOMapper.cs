@@ -11,14 +11,6 @@ namespace PhoneBook.Domain.Mappings
 {
     public class EntityToDTOMapper : IEntityToDTOMapper
     {
-        public async Task<PhoneBookDTO> EntityToDTO(ContactEntity contactEntity)
-        {
-            PhoneBookDTO phoneBookDTO = new PhoneBookDTO()
-            {
-                Name = contactEntity.Name,
-                Phone = contactEntity.Phones,
-            };
-            return phoneBookDTO;
-        }
+   
     }
 }

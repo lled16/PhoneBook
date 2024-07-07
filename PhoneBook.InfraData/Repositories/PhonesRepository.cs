@@ -32,7 +32,7 @@ namespace PhoneBook.InfraData.Repositories
 
         public async Task<IEnumerable<PhoneEntity>> GetByIdAsync(int? id)
         {
-            return await _context.Telefones.Where(t => t.Id == id).ToListAsync();
+            return await _context.Telefones.Where(t => t.ContactId == id).ToListAsync();
                
         }
 

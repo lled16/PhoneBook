@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj": {}
+    "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj": {
+    "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj",
+        "projectUniqueName": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj",
         "projectName": "PhoneBook.Application",
-        "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj",
-        "packagesPath": "C:\\Users\\JoaoSimao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\obj\\",
+        "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj",
+        "packagesPath": "C:\\Users\\pc gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JoaoSimao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj"
+              "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj"
               }
             }
           }
@@ -75,25 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj": {
+    "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj",
         "projectName": "PhoneBook.Domain",
-        "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj",
-        "packagesPath": "C:\\Users\\JoaoSimao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\obj\\",
+        "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj",
+        "packagesPath": "C:\\Users\\pc gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JoaoSimao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,7 +92,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,25 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj": {
+    "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj",
+        "projectUniqueName": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj",
         "projectName": "PhoneBook.InfraData",
-        "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj",
-        "packagesPath": "C:\\Users\\JoaoSimao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\obj\\",
+        "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj",
+        "packagesPath": "C:\\Users\\pc gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.InfraData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JoaoSimao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,15 +158,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj"
+              "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\PhoneBook.Domain.csproj"
               }
             }
           }
@@ -241,25 +226,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj": {
+    "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj",
+        "projectUniqueName": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj",
         "projectName": "PhoneBook.API",
-        "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj",
-        "packagesPath": "C:\\Users\\JoaoSimao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBookAPI\\obj\\",
+        "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBookAPI\\PhoneBook.API.csproj",
+        "packagesPath": "C:\\Users\\pc gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBookAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JoaoSimao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,18 +248,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj": {
-                "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj"
+              "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj": {
+                "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\PhoneBook.Application.csproj"
               },
-              "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj": {
-                "projectPath": "C:\\Users\\JoaoSimao\\Documents\\joao\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj"
+              "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj": {
+                "projectPath": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.InfraData\\PhoneBook.InfraData.csproj"
               }
             }
           }
@@ -326,7 +306,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

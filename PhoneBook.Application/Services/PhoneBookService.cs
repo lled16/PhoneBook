@@ -18,20 +18,44 @@ namespace PhoneBook.Application.Services
 
 
 
-        public async Task<PhoneBookDTO> GetPhonesBook()
+        public async Task<List<ContactEntity>> GetPhonesBook()
         {
-            List<PhoneBookDTO> phoneBooks = new List<PhoneBookDTO>();
+            List<ContactEntity> contacts = await _contactRepository.GetContactsAsync();
 
-            var contacts = await _contactRepository.GetContactsAsync();
+            return contacts;
+        }    
+        
+        public async Task<List<ContactEntity>> GetContactsByName(string name)
+        {
+            List<ContactEntity> contacts = await _contactRepository.GetContactsByName(name);
 
-          
-            await _entityToDTOMapper.EntityToDTO(phonesByContact, contact);
-            
+            return contacts;
+        }
 
+        public async Task<ContactEntity> PostPhonesBook(ContactDTO contact)
+        {
+            List<PhoneEntity> contactNumbers = new List<PhoneEntity>();
 
+            foreach (var number in contact.Phone)
+            {
+                PhoneEntity phoneEntity = new PhoneEntity();
+                phoneEntity.PhoneNumber = number;
+                contactNumbers.Add(phoneEntity);
+            }
 
-            return null;
+            ContactEntity contactEntity = new ContactEntity();
+            contactEntity.Name = contact.Name;
+            contactEntity.Age = contact.Age;
+            contactEntity.Phones = contactNumbers;
 
+            ContactEntity contactSave = await _contactRepository.CreateAsync(contactEntity);
+
+            return contactSave;
+        }
+
+        public async Task DeleteContact(int contact)
+        {
+            _contactRepository.RemoveAsync(contact);
         }
     }
 }

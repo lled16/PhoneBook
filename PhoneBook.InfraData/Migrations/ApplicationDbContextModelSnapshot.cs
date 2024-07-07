@@ -23,38 +23,42 @@ namespace PhoneBook.InfraData.Migrations
 
             modelBuilder.Entity("PhoneBook.Domain.Entities.ContactEntity", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ContactId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContactId"));
 
                     b.Property<int>("Age")
-                        .HasMaxLength(3)
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("ContactId");
 
                     b.ToTable("Contatos");
                 });
 
             modelBuilder.Entity("PhoneBook.Domain.Entities.PhoneEntity", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("PhoneId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Phones")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PhoneId"));
 
-                    b.HasKey("Id");
+                    b.Property<int>("ContactId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PhoneId");
+
+                    b.HasIndex("ContactId");
 
                     b.ToTable("Telefones");
                 });
@@ -63,7 +67,7 @@ namespace PhoneBook.InfraData.Migrations
                 {
                     b.HasOne("PhoneBook.Domain.Entities.ContactEntity", "Contact")
                         .WithMany("Phones")
-                        .HasForeignKey("Id")
+                        .HasForeignKey("ContactId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

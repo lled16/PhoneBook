@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,12 +10,10 @@ namespace PhoneBook.Domain.Entities
 {
     public class ContactEntity
     {
-        public int Id { get; set; }
-        [Required]
+        public int ContactId { get; set; }
         public string Name { get; set; }
-        [Required]
         public int Age { get; set; }
 
-        public virtual ICollection<PhoneEntity> Phones { get; set; }
+        public List<PhoneEntity> Phones { get; set; }
     }
 }

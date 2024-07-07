@@ -11,3 +11,16 @@ C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\refint\PhoneBook.Infra.IOC.dll
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.pdb
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\ref\PhoneBook.Infra.IOC.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\bin\Debug\net8.0\PhoneBook.Infra.IOC.deps.json
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\bin\Debug\net8.0\PhoneBook.Infra.IOC.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\bin\Debug\net8.0\PhoneBook.Infra.IOC.pdb
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.csproj.AssemblyReference.cache
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.AssemblyInfoInputs.cache
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.AssemblyInfo.cs
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.csproj.CoreCompileInputs.cache
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.sourcelink.json
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\refint\PhoneBook.Infra.IOC.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\PhoneBook.Infra.IOC.pdb
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Infra.IOC\obj\Debug\net8.0\ref\PhoneBook.Infra.IOC.dll

@@ -18,12 +18,21 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("PhoneBookConnection")));
+        options.UseSqlServer(builder.Configuration.GetConnectionString("PhoneBookConnectionHome")));
 
 builder.Services.AddScoped<IPhoneBookService, PhoneBookService>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<IPhonesRepository, PhonesRepository>();
 builder.Services.AddScoped<IEntityToDTOMapper, EntityToDTOMapper>();
+
+builder.Services.AddCors(options =>
+            options.AddPolicy("CorsPolicy", builder => builder
+
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            )
+            );
 
 
 var app = builder.Build();
@@ -34,6 +43,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 
