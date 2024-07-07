@@ -9,9 +9,10 @@ Projeto desenvolvido para teste. O mesmo se trata de uma api para uma agenda tel
 ReactJS 
 
 * Backend :
+
 C#
 
-.net 8
+dotnet 8
 
 Entity Framework
 
