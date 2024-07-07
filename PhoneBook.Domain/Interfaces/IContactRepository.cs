@@ -13,6 +13,6 @@ namespace PhoneBook.Domain.Interfaces
         Task<List<ContactEntity>> GetContactsAsync();
         Task<List<ContactEntity>> GetContactsByName(string name);
         void RemoveAsync(int contact);
-        Task<ContactEntity> UpdateAsync(ContactEntity contact);
+        Task<ContactEntity> UpdateAsync(ContactEntity contact, int idContact);
     }
 }

@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{76C34470-6F14-48C6-9CD3-A6E50BF4348F}|PhoneBook.InfraData\\PhoneBook.InfraData.csproj|solutionrelative:phonebook.infradata\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|c:\\users\\pc gamer\\documents\\dev\\phonebook\\phonebook.application\\services\\phonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|solutionrelative:phonebook.application\\services\\phonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25AFD01A-BB09-4EBC-B824-3B5B2F0CABEE}|PhoneBookAPI\\PhoneBook.API.csproj|c:\\users\\pc gamer\\documents\\dev\\phonebook\\phonebookapi\\controllers\\phonebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25AFD01A-BB09-4EBC-B824-3B5B2F0CABEE}|PhoneBookAPI\\PhoneBook.API.csproj|solutionrelative:phonebookapi\\controllers\\phonebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|c:\\users\\pc gamer\\documents\\dev\\phonebook\\phonebook.application\\interfaces\\iphonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|solutionrelative:phonebook.application\\interfaces\\iphonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|c:\\users\\pc gamer\\documents\\dev\\phonebook\\phonebook.application\\services\\phonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|solutionrelative:phonebook.application\\services\\phonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|c:\\users\\pc gamer\\documents\\dev\\phonebook\\phonebook.domain\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76C2074D-77AD-42A5-81BF-D138DF186FD9}|PhoneBook.Domain\\PhoneBook.Domain.csproj|solutionrelative:phonebook.domain\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|c:\\users\\pc gamer\\documents\\dev\\phonebook\\phonebook.application\\interfaces\\iphonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FC2DF5-210F-45B4-B6C4-EFEAE07A5EFB}|PhoneBook.Application\\PhoneBook.Application.csproj|solutionrelative:phonebook.application\\interfaces\\iphonebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25AFD01A-BB09-4EBC-B824-3B5B2F0CABEE}|PhoneBookAPI\\PhoneBook.API.csproj|c:\\users\\pc gamer\\documents\\dev\\phonebook\\phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,41 +38,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "PhoneBookService.cs",
+              "DocumentMoniker": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "RelativeDocumentMoniker": "PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "ToolTip": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "RelativeToolTip": "PhoneBook.Application\\Services\\PhoneBookService.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAASwEsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:35:07.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
               "RelativeDocumentMoniker": "PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
               "ToolTip": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
               "RelativeToolTip": "PhoneBook.Domain\\Interfaces\\IContactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T06:21:31.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IPhoneBookService.cs",
               "DocumentMoniker": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\Interfaces\\IPhoneBookService.cs",
               "RelativeDocumentMoniker": "PhoneBook.Application\\Interfaces\\IPhoneBookService.cs",
               "ToolTip": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\Interfaces\\IPhoneBookService.cs",
               "RelativeToolTip": "PhoneBook.Application\\Interfaces\\IPhoneBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T06:21:10.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PhoneBookService.cs",
-              "DocumentMoniker": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\Services\\PhoneBookService.cs",
-              "RelativeDocumentMoniker": "PhoneBook.Application\\Services\\PhoneBookService.cs",
-              "ToolTip": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.Application\\Services\\PhoneBookService.cs",
-              "RelativeToolTip": "PhoneBook.Application\\Services\\PhoneBookService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB0AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T06:20:58.194Z",
               "EditorCaption": ""
             },
             {
@@ -83,20 +83,20 @@
               "RelativeDocumentMoniker": "PhoneBook.InfraData\\Repositories\\ContactRepository.cs",
               "ToolTip": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBook.InfraData\\Repositories\\ContactRepository.cs",
               "RelativeToolTip": "PhoneBook.InfraData\\Repositories\\ContactRepository.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAcwDcAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAqwHoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T05:50:36.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PhoneBookController.cs",
               "DocumentMoniker": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBookAPI\\Controllers\\PhoneBookController.cs",
               "RelativeDocumentMoniker": "PhoneBookAPI\\Controllers\\PhoneBookController.cs",
               "ToolTip": "C:\\Users\\pc gamer\\Documents\\Dev\\PhoneBook\\PhoneBookAPI\\Controllers\\PhoneBookController.cs",
               "RelativeToolTip": "PhoneBookAPI\\Controllers\\PhoneBookController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwB4AAAA9AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T05:01:00.988Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "PhoneBookAPI\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T03:40:52.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T03:40:52.377Z"
             }
           ]
         }

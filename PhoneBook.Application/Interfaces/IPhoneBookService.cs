@@ -14,5 +14,6 @@ namespace PhoneBook.Application.Interfaces
         Task<List<ContactEntity>> GetContactsByName(string name);
         Task<ContactEntity> PostPhonesBook(ContactDTO contact);
         Task DeleteContact(int contact);
+        Task<ContactEntity> EditPhonesBook(ContactDTO contact, int idContact);
     }
 }

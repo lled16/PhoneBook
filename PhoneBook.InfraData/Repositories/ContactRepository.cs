@@ -92,11 +92,48 @@ namespace PhoneBook.InfraData.Repositories
             }
         }
 
-        public async Task<ContactEntity> UpdateAsync(ContactEntity contact)
+        public async Task<ContactEntity> UpdateAsync(ContactEntity contact, int idContact)
         {
-            _context.Update(contact);
-            await _context.SaveChangesAsync();
-            return contact;
+            var existingContact = await _context.Contatos
+                .Include(c => c.Phones)
+                .FirstOrDefaultAsync(c => c.ContactId == idContact);
+
+            existingContact.Name = contact.Name ?? existingContact.Name;
+            existingContact.Age = contact.Age != 0 ? contact.Age : existingContact.Age;
+
+            if (contact.Phones != null && contact.Phones.Any())
+            {
+                existingContact.Phones.Clear();
+
+                foreach (var phone in contact.Phones)
+                {
+                    phone.ContactId = existingContact.ContactId;
+                    existingContact.Phones.Add(phone);
+                }
+
+                var existingPhone = _context.Telefones.Where(t => t.ContactId == idContact);
+
+                foreach (var number in existingPhone)
+                {
+                    _context.Telefones.Remove(number);
+                }
+            }
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+
+                throw new Exception("Error update contact", ex);
+            }
+            catch (DbUpdateException ex)
+            {
+                throw new Exception("Error update contact", ex);
+            }
+
+            return existingContact;
         }
     }
 }

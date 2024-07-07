@@ -38,10 +38,14 @@ namespace PhoneBook.API.Controllers
             var contact = _phoneBookService.PostPhonesBook(newContact);
             return Ok(contact);
         }
-        [HttpPut]
-        public IActionResult UpdateRegister()
+
+        [HttpPut("contacts/{idContact}")]
+        public async Task<IActionResult> UpdateRegister([FromBody] ContactDTO editcontact, int idContact)
         {
-            return Ok();
+
+            var contact = await _phoneBookService.EditPhonesBook(editcontact, idContact);
+
+            return Ok(contact);
         }
         [HttpDelete]
         public IActionResult DeleteRegister(int idContact)

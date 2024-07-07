@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneBook.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+994357eacde6c7b74c75b1894cd6ecd5646c2394")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+301c33922b3c6ec2f57fc6d5488bb453fe3e0ca5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneBook.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneBook.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

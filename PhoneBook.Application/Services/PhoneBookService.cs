@@ -53,6 +53,31 @@ namespace PhoneBook.Application.Services
             return contactSave;
         }
 
+        public async Task<ContactEntity> EditPhonesBook(ContactDTO contact, int idContact)
+        {
+
+
+
+
+            List<PhoneEntity> contactNumbers = new List<PhoneEntity>();
+
+            foreach (var number in contact.Phone)
+            {
+                PhoneEntity phoneEntity = new PhoneEntity();
+                phoneEntity.PhoneNumber = number;
+                contactNumbers.Add(phoneEntity);
+            }
+
+            ContactEntity contactEntity = new ContactEntity();
+            contactEntity.Name = contact.Name;
+            contactEntity.Age = contact.Age;
+            contactEntity.Phones = contactNumbers;
+
+            ContactEntity contactSave = await _contactRepository.UpdateAsync(contactEntity, idContact);
+
+            return contactSave;
+        }
+
         public async Task DeleteContact(int contact)
         {
             _contactRepository.RemoveAsync(contact);
