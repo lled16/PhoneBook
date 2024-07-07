@@ -5,7 +5,8 @@ Projeto desenvolvido para teste. O mesmo se trata de uma api para uma agenda tel
 
 ## Tecnologias utilizadas
 
-* Frontend : 
+* Frontend :
+* 
 ReactJS 
 
 * Backend :
@@ -16,7 +17,8 @@ dotnet 8
 
 Entity Framework
 
-* Database 
+* Database
+* 
 SQL Server
 
 ## Sobre
