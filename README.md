@@ -37,6 +37,11 @@ Camada de de IOC não implementada pela simplicidade do projeto, mas as dependê
 
 * Execute o comando: update-database para que as migrations sejam carregadas e o banco de dados seja construído
 
+* Caso o comando acima não funcione, entre no console de gerenciador de pacotes do nuget e execute novamente update-database
+
+![image](https://github.com/lled16/PhoneBook/assets/32556098/2babab4b-db97-4545-8a44-9e7495f4c5c7)
+
+
 Após isso, já deverá conseguir executar e visualizar o Swagger ! 
 
 * Agora, clone o repositório : https://github.com/lled16/PhoneBookFront.git
