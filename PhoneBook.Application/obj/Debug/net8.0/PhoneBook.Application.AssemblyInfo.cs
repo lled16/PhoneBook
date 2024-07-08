@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneBook.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e37a188016816215503fb1dfeeaf2e37d62e7c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8273d8a445fa5413b353797bb64cbb6ecb6c8c08")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneBook.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneBook.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

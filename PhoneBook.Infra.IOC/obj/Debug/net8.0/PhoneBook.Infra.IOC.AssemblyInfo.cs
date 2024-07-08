@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneBook.Infra.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+994357eacde6c7b74c75b1894cd6ecd5646c2394")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8273d8a445fa5413b353797bb64cbb6ecb6c8c08")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneBook.Infra.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneBook.Infra.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

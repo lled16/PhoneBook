@@ -9,7 +9,7 @@ namespace PhoneBook.Application.Services
     {
         private readonly IContactRepository _contactRepository;
         private readonly IPhonesRepository _phonesRepository;
-        private readonly IEntityToDTOMapper _entityToDTOMapper;
+
         public PhoneBookService(IContactRepository contactRepository, IPhonesRepository phonesRepository)
         {
             _contactRepository = contactRepository;
@@ -80,7 +80,7 @@ namespace PhoneBook.Application.Services
 
         public async Task DeleteContact(int contact)
         {
-            _contactRepository.RemoveAsync(contact);
+            await _contactRepository.RemoveAsync(contact);
         }
     }
 }
