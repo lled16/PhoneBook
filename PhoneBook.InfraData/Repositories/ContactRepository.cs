@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using Newtonsoft.Json;
 using PhoneBook.Domain.Entities;
 using PhoneBook.Domain.Interfaces;
 using PhoneBook.InfraData.Context;
@@ -77,11 +78,41 @@ namespace PhoneBook.InfraData.Repositories
             return contacts;
         }
 
-        public void RemoveAsync(int contact)
+        public async Task RemoveAsync(int contact)
         {
             ContactEntity contactRemove = _context.Contatos
            .Include(c => c.Phones)
            .FirstOrDefault(c => c.ContactId == contact);
+
+
+
+            if (contactRemove != null)
+            {
+                var contactInfo = new
+                {
+                    contactRemove.ContactId,
+                    contactRemove.Name,
+                    Phones = contactRemove.Phones.Select(p => new { p.PhoneId, p.PhoneNumber })
+                };
+
+                string contactJson = JsonConvert.SerializeObject(contactInfo, Formatting.Indented);
+
+                string logDirectory = Path.Combine(Directory.GetCurrentDirectory(), "log");
+
+                if (!Directory.Exists(logDirectory))
+                {
+                    Directory.CreateDirectory(logDirectory);
+                }
+
+                string logFilePath = Path.Combine(logDirectory, $"contact_{contact}_removed.txt");
+
+                await File.WriteAllTextAsync(logFilePath, contactJson);
+            }
+            else
+            {
+                throw new Exception($"Contato com ID {contact} não encontrado.");
+            }
+
 
             if (contactRemove != null)
             {
@@ -118,7 +149,6 @@ namespace PhoneBook.InfraData.Repositories
                     _context.Telefones.Remove(number);
                 }
             }
-
             try
             {
                 await _context.SaveChangesAsync();
