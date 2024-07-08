@@ -31,7 +31,7 @@ Camada de de IOC não implementada pela simplicidade do projeto, mas as dependê
 
 * Clone este repositório
 
-* Acesse a classe Program.cs e altere a conexão para seu banco de dados
+* Acesse o arquivo appsettings.json e altere a conexão para seu banco de dados
 
 *  Através do terminal, navegue até o projeto InfraData : cd .\PhoneBook.InfraData\ 
 
