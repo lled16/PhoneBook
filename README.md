@@ -42,3 +42,12 @@ Após isso, já deverá conseguir executar e visualizar o Swagger !
 * Agora, clone o repositório : https://github.com/lled16/PhoneBookFront.git
 
 * Abra o projeto clonado através do VSCODE, e pelo terminal, execute: npm start.
+
+## Gravação de Logs
+
+Ao deletar um cadastro, o sistema salva o log dessa deleção em um arquivo TXT, presente na raiz do projeto API, dentro da pasta log.
+
+![image](https://github.com/lled16/PhoneBook/assets/32556098/afda78ef-118c-4ed8-a215-41a94a39d68c)
+
+
+  
