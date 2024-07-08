@@ -284,3 +284,4 @@ C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\scopedcs
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBoo.FFC64182.Up2Date
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBook.API.genruntimeconfig.cache
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\ref\PhoneBook.API.dll
+C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\bin\Debug\net8.0\Newtonsoft.Json.dll

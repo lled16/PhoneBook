@@ -12,7 +12,7 @@ namespace PhoneBook.Domain.Interfaces
         Task<ContactEntity> CreateAsync(ContactEntity contact);
         Task<List<ContactEntity>> GetContactsAsync();
         Task<List<ContactEntity>> GetContactsByName(string name);
-        void RemoveAsync(int contact);
+        Task RemoveAsync(int contact);
         Task<ContactEntity> UpdateAsync(ContactEntity contact, int idContact);
     }
 }
