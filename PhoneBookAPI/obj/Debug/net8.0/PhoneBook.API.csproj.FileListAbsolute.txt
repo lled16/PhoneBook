@@ -140,7 +140,6 @@ C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhonebookAPI\bin\Debug\net8.0\ru\Mic
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhonebookAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhonebookAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhonebookAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhonebookAPI\obj\Debug\net8.0\Phoneboo.74264192.Up2Date
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBook.API.csproj.AssemblyReference.cache
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBook.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBook.API.AssemblyInfoInputs.cache
@@ -285,3 +284,5 @@ C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBoo
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBook.API.genruntimeconfig.cache
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\ref\PhoneBook.API.dll
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBookAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBookAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBookAPI\obj\Debug\net8.0\PhoneBoo.FFC64182.Up2Date

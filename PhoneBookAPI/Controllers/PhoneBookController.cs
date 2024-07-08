@@ -48,9 +48,9 @@ namespace PhoneBook.API.Controllers
             return Ok(contact);
         }
         [HttpDelete]
-        public IActionResult DeleteRegister(int idContact)
+        public async Task<IActionResult> DeleteRegister(int idContact)
         {
-            _phoneBookService.DeleteContact(idContact);
+            await _phoneBookService.DeleteContact(idContact);
             return Ok();
         }
     }

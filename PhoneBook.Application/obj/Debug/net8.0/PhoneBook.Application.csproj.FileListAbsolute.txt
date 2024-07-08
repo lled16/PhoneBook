@@ -27,3 +27,6 @@ C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Application\bin\Debug\net8.0
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Application\bin\Debug\net8.0\PhoneBook.Domain.pdb
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Application\obj\Debug\net8.0\PhoneBoo.3B596BBF.Up2Date
 C:\Users\pc gamer\Documents\Dev\PhoneBook\PhoneBook.Application\obj\Debug\net8.0\ref\PhoneBook.Application.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Application\bin\Debug\net8.0\PhoneBook.Domain.dll
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Application\bin\Debug\net8.0\PhoneBook.Domain.pdb
+C:\Users\JoaoSimao\Documents\joao\PhoneBook\PhoneBook.Application\obj\Debug\net8.0\PhoneBoo.3B596BBF.Up2Date
